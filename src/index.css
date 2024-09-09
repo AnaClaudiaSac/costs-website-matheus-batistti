@@ -1,14 +1,42 @@
 body {
-  padding: 160px;
-  padding-bottom: 500px;
-  background-color: #efefef;
+  width: 100%;
+  padding: 40px 10px;
+  background-color: #2a44a8;
+  margin: 0 auto;
 }
 
 h1 {
-  color: #444;
+  color: #fff;
+  font-size: 80px;
+}
+
+h2 {
+  color: #20b2e8;
+  font-size: 60px;
 }
 
 p {
-  background-color: #888;
-  padding: 10px;
+  color: #fff;
+  padding: 20px;
+  font-size: 46px;
+}
+
+li {
+  width: 200px;
+  font-size: 40px;
+  padding: 0 40%;
+  color: #fff;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+}
+
+.Button {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin: 40px 60px;
+  gap: 22px;
 }
