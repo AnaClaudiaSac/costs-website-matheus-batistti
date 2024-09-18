@@ -1,4 +1,4 @@
-function Pessoa({ name, idade, profissao, foto }) {
+function Pessoa({ name, idade, profissao, foto }: any) {
   return (
     <div>
       <img src={foto} alt={name} />
