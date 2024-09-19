@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
 //marca, ano_lancamento,
 function Item({ compras }) {
+  // ({marca, lancamento})
   return (
     <>
       <li>
-        {/* {marca} - {ano_lancamento} */}
+        {/* { {marca} - {ano_lancamento}   */}
         {compras}
       </li>
     </>

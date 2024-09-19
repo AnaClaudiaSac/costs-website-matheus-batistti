@@ -2,12 +2,13 @@ body {
   width: 100%;
   padding: 40px 10px;
   background-color: #2a44a8;
+  font-family: "Arial", "sans-serif ";
   margin: 0 auto;
 }
 
 h1 {
   color: #fff;
-  font-size: 80px;
+  font-size: 28px;
 }
 
 h2 {
@@ -17,8 +18,8 @@ h2 {
 
 p {
   color: #fff;
-  padding: 20px;
-  font-size: 46px;
+  padding: 10px;
+  font-size: 12px;
 }
 
 li {
@@ -39,4 +40,8 @@ ul {
   width: 180px;
   margin: 40px 60px;
   gap: 22px;
+}
+
+label {
+  color: white;
 }
