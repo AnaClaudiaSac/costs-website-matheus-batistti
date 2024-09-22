@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 //marca, ano_lancamento,
-function Item({ compras }) {
+function Item({ compras }: any) {
   // ({marca, lancamento})
   return (
     <>
