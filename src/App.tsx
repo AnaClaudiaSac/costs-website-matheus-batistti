@@ -1,4 +1,5 @@
 import "./App.css";
+import ButtonCounter from "./Exercicios/Botão/1-Contagem";
 //import Form from "./components/Form";
 //import Saudacao from "./Exercicios/JSXBasico/Prpos/1-ComponenteSaudacaoSimples";
 // import WelcomeJSX from "./assets/Exercicios/1-JSXBasico";
@@ -13,9 +14,11 @@ import "./App.css";
 //import FraseAutor from "./Exercicios/Props/3-ConpenteFrasePersonalizada";
 //import ItemCompra from "./Exercicios/componente-Props/4-ListaDeItens";
 //import Card from "./Exercicios/componente-Props/5- CardSimples";
+import Button from "./Exercicios/Componente-JSXBasico/3.1-ComponentesComProps";
 
 function App() {
   return <div></div>;
+  <ButtonCounter />;
 }
 
 export default App;
