@@ -16,7 +16,17 @@ function ButtonCounter() {
     setCount(count + 1);
   }
 
-  return <button onClick={handleClick}>Clicado {count} vezes</button>;
+  return <button onClick={handleClick}>Clicado número: {count} vezes</button>;
 }
 
 export default ButtonCounter;
+
+// function App() {
+//   return (
+//     <div>
+//       <ButtonCounter />;
+//     </div>
+//   );
+// }
+
+// export default App;

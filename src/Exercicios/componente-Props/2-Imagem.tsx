@@ -17,4 +17,16 @@ function Imagem(props) {
 
 export default Imagem;
 
-//"https://imga.freepik.com/fotos-gratis/vista-do-ceu-estrelado-com-paisagem-natural_23-2151683174.jpg";
+//-------------------------------------------------------------------------------------
+
+//Output:
+
+// const url = //"https://img.freepik.com/fotos-gratis/paisagem-de-praia-do-havai-com-natureza-e-litoral_23-2151795032.jpg?size=626&ext=jpg&ga=GA1.1.777392151.1726770096&semt=ais_hybrid";
+
+// function App() {
+//   return (
+//     <div>
+//       <Imagem url={url} alt={"Imagem de uma praia"} />
+//     </div>
+//   );
+// }

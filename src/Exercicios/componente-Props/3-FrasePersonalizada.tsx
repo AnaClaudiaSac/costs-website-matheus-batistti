@@ -7,6 +7,8 @@
 // Exibir o texto no formato: "A vida é bela" - Autor Desconhecido.
 
 //-----------------------------------------------------------------------------
+//1 -  passando props como parametro
+
 function FraseAutor(props) {
   return (
     <div>
@@ -20,8 +22,9 @@ function FraseAutor(props) {
 export default FraseAutor;
 
 //
-
 //------------------------------------------------------------------------------
+
+//2 - Descontruindo as props e passando os types exe: string.
 
 // import PropTypes from "prop-types";
 
@@ -38,3 +41,15 @@ export default FraseAutor;
 //   frase: PropTypes.string,
 //   autor: PropTypes.string,
 // };
+
+//-----------------------------------------------------
+
+// Output:
+
+// function App() {
+//   return (
+//     <div>
+//       <FraseAutor frase="A vida é Bela" autor="Desconhecido" />
+//     </div>
+//   );
+// }

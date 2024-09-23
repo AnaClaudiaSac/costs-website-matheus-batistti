@@ -28,5 +28,3 @@ export default Card;
 //     </div>
 //   );
 // }
-
-// export default App;

@@ -15,6 +15,10 @@ function Saudacao(props) {
 
 export default Saudacao;
 
+//------------------------------------------------------------------------
+
+//Output:
+
 //function App() {
 //return (
 //<div className="App">
@@ -22,5 +26,3 @@ export default Saudacao;
 //</div>
 // );
 // }
-
-// export default App;
