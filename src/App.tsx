@@ -14,7 +14,6 @@ import ButtonCounter from "./Exercicios/Botão/1-Contagem";
 //import FraseAutor from "./Exercicios/Props/3-ConpenteFrasePersonalizada";
 //import ItemCompra from "./Exercicios/componente-Props/4-ListaDeItens";
 //import Card from "./Exercicios/componente-Props/5- CardSimples";
-import Button from "./Exercicios/Componente-JSXBasico/3.1-ComponentesComProps";
 
 function App() {
   return <div></div>;
