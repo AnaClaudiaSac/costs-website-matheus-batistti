@@ -28,5 +28,3 @@ export default ButtonCounter;
 //     </div>
 //   );
 // }
-
-// export default App;

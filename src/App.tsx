@@ -1,4 +1,6 @@
 import "./App.css";
+
+//import CaixaDeTextoComContador from "./Exercicios/Botão/2-CaixaDeTextoContador";
 //import ButtonCounter from "./Exercicios/Botão/1-Contagem";
 // import Form from "./components/Form";
 // import Saudacao from "./Exercicios/JSXBasico/Prpos/1-ComponenteSaudacaoSimples";
@@ -12,18 +14,12 @@ import "./App.css";
 //---------------------------------------------------------------------------
 //import Imagem from "./Exercicios/Componente-Props/2-Imagem";
 //import FraseAutor from "./Exercicios/Componente-Props/3-FrasePersonalizada";
-import ItemCompra from "./Exercicios/Componente-Props/4-ListaDeItens";
+//import ItemCompra from "./Exercicios/Componente-Props/4-ListaDeItens";
 // import Card from "./Exercicios/componente-Props/5- CardSimples";
 //-----------------------------------------------------------------------------
 
 function App() {
-  return (
-    <div>
-      <ul>
-        <ItemCompra compra="Banana" />
-      </ul>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
