@@ -1,4 +1,7 @@
 import "./App.css";
+//import CampoValidaçãoObrigatório from "./Exercicios/Botão/3-InputComValidacaoDePreenchimento";
+//import AlterarCorTexto from "./Exercicios/Eventos/4-BotaoAlterarCor";
+import LimiteDeCaractere from "./Exercicios/Eventos/5-LimiteDeCaracteres";
 
 //import CaixaDeTextoComContador from "./Exercicios/Botão/2-CaixaDeTextoContador";
 //import ButtonCounter from "./Exercicios/Botão/1-Contagem";
@@ -19,7 +22,11 @@ import "./App.css";
 //-----------------------------------------------------------------------------
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <LimiteDeCaractere />
+    </div>
+  );
 }
 
 export default App;
