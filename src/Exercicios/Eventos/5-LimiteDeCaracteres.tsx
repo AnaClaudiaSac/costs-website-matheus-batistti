@@ -32,8 +32,8 @@ export default function LimiteDeCaractere() {
       <textarea
         value={text}
         onChange={handleChange}
-        rows="4"
-        cols="40"
+        rows={4}
+        cols={40}
         placeholder="Digite aqui: (máximo 20 caracteres)"
       />
       <div style={{ color: "red" }}>{error}</div>

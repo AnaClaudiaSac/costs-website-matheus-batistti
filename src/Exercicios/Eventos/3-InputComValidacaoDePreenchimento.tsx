@@ -15,9 +15,8 @@ export default function CampoValidaçãoObrigatório() {
   function handleBlur() {
     if (inputValue === "") {
       setErrorMessage("Campo obrigatório");
-      console.log("aqui...", inputValue);
     } else {
-      setErrorMessage("Campo Preenchido");
+      setErrorMessage("");
     }
   }
 

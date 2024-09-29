@@ -10,7 +10,7 @@
 import { useState } from "react";
 
 export default function AlterarCorTexto() {
-  const [corTexto, setCorTexto] = useState<string>("");
+  const [corTexto, setCorTexto] = useState<string>("Black");
 
   const alternarCor = () => {
     if (corTexto === "Black") {
@@ -26,7 +26,7 @@ export default function AlterarCorTexto() {
         Este texto muda de cor ao clicar no botão!
       </p>
 
-      <button onClick={alternarCor}>Alterar Cor do texto</button>
+      <button onClick={alternarCor}>Alterar cor do texto</button>
     </div>
   );
 }

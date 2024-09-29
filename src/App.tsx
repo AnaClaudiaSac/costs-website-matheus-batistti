@@ -1,9 +1,4 @@
 import "./App.css";
-//import CampoValidaçãoObrigatório from "./Exercicios/Botão/3-InputComValidacaoDePreenchimento";
-//import AlterarCorTexto from "./Exercicios/Eventos/4-BotaoAlterarCor";
-import LimiteDeCaractere from "./Exercicios/Eventos/5-LimiteDeCaracteres";
-
-//import CaixaDeTextoComContador from "./Exercicios/Botão/2-CaixaDeTextoContador";
 //import ButtonCounter from "./Exercicios/Botão/1-Contagem";
 // import Form from "./components/Form";
 // import Saudacao from "./Exercicios/JSXBasico/Prpos/1-ComponenteSaudacaoSimples";
@@ -21,9 +16,18 @@ import LimiteDeCaractere from "./Exercicios/Eventos/5-LimiteDeCaracteres";
 // import Card from "./Exercicios/componente-Props/5- CardSimples";
 //-----------------------------------------------------------------------------
 
+// import ButtonCounter from "./Exercicios/Eventos/1-Contagem";
+// import CaixaDeTextoComContador from "./Exercicios/Eventos/2-CaixaDeTextoContador";
+// import CampoValidaçãoObrigatório from "./Exercicios/Eventos/3-InputComValidacaoDePreenchimento";
+// import AlterarCorTexto from "./Exercicios/Eventos/4-BotaoAlterarCor";
+import LimiteDeCaractere from "./Exercicios/Eventos/5-LimiteDeCaracteres";
+
 function App() {
   return (
     <div>
+      {/* <ButtonCounter /> */}
+      {/* <CampoValidaçãoObrigatório /> */}
+      {/* <AlterarCorTexto /> */}
       <LimiteDeCaractere />
     </div>
   );

@@ -9,6 +9,7 @@
 
 // Dica: Use o evento onClick no botão.
 import { useState } from "react";
+
 function ButtonCounter() {
   const [count, setCount] = useState(0);
 
