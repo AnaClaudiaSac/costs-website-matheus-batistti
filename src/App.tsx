@@ -20,7 +20,7 @@ import "./App.css";
 // import CaixaDeTextoComContador from "./Exercicios/Eventos/2-CaixaDeTextoContador";
 // import CampoValidaçãoObrigatório from "./Exercicios/Eventos/3-InputComValidacaoDePreenchimento";
 // import AlterarCorTexto from "./Exercicios/Eventos/4-BotaoAlterarCor";
-import LimiteDeCaractere from "./Exercicios/Eventos/5-LimiteDeCaracteres";
+import LimiteDeCaractere from "./pages/eventos/5-LimiteDeCaracteres";
 
 function App() {
   return (

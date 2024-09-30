@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  padding: 40px 28px0px;
+  padding: 40px 28px 0px;
   background-color: #888;
   font-family: "Arial", "sans-serif ";
   margin: 0 auto;
@@ -15,18 +15,22 @@ h1 {
 h2 {
   color: #20b2e8;
   font-size: 60px;
+  text-align: center;
 }
 
 p {
   color: #fff;
   padding: 10px;
   font-size: 24px;
+  text-align: center;
 }
 
 li {
   width: 200px;
   font-size: 28px;
-  padding: 0 44%;
+  padding: 0 46%;
+  margin-top: 12px;
+  list-style-type: none;
   color: #fff;
 }
 
@@ -39,8 +43,18 @@ ul {
   display: flex;
   flex-direction: column;
   width: 180px;
-  margin: 40px 60px;
+  margin: 0px auto;
   gap: 22px;
+}
+
+button {
+  padding: 8px 40px;
+  margin: 0px 800px;
+}
+
+textarea {
+  padding: 8px 40px;
+  margin: 0px 680px;
 }
 
 label {
