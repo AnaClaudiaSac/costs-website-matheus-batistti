@@ -7,7 +7,12 @@
 // Receber como props um título e um texto.
 // Renderizar um h2 para o título e um p para o texto.
 
-function Card({ title, text }: any) {
+type CardProps = {
+  title: string;
+  text: string;
+};
+
+function Card({ title, text }: CardProps) {
   return (
     <div>
       <h2>{title}</h2>
@@ -17,14 +22,3 @@ function Card({ title, text }: any) {
 }
 
 export default Card;
-
-//function App() {
-//   return (
-//     <div>
-//       <Card
-//         title="Bom dia!"
-//         text="Não vou desitir de Desejar um Feliz e Abençoado Dia!"
-//       />
-//     </div>
-//   );
-// }

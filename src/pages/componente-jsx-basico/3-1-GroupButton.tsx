@@ -1,4 +1,4 @@
-import Button from "./3.1-ComponentesComProps";
+import Button from "./3-0-ComponentesComProps";
 
 function GroupButton() {
   return (

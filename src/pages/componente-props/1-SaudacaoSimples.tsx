@@ -5,10 +5,14 @@
 //Receber via props o nome da pessoa.
 //Exibir uma saudação simples, como: Bem-vindo, Gabriel!.
 
-function Saudacao(props) {
+type SaudacaoProps = {
+  name: string;
+};
+
+function Saudacao(props: SaudacaoProps) {
   return (
     <div>
-      <h1>Bem vindo,{props.name}</h1>
+      <h1>Bem vindo, {props.name}</h1>
     </div>
   );
 }

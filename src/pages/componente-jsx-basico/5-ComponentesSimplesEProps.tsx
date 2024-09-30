@@ -2,7 +2,12 @@
 ///Crie um componente Card que receba title e content como props. O title deve ser renderizado como um título e o content como um parágrafo.
 //Em outro componente, renderize três instâncias do Card com diferentes valores para title e content.
 
-function Card({ title, content }: any) {
+type CardProps = {
+  title: string;
+  content: string;
+};
+
+function Card({ title, content }: CardProps) {
   return (
     <div>
       <h1>{title}</h1>
